@@ -50,6 +50,7 @@ enter _deco arg is false
 
 '''
 
+# from decorator import myfunc
 import decorator
 
 
@@ -57,7 +58,7 @@ import decorator
 
 
 def main():
-    pass
+    decorator.myfunc()
 
 if __name__ == '__main__':
     main()
